@@ -48,13 +48,26 @@ const RootStack = StackNavigator(
     Home: {
       screen: HomeScreen,
       navigationOptions: {
-        title: 'GetGek - Home Page'
+        title: 'GetGek - Home Page',
+        headerTitleStyle: {
+          color: '#FFF'
+        },
+        headerStyle: {
+          backgroundColor: '#000'
+        },
       },
     },
     Register: {
       screen: RegisterScreen,
       navigationOptions: {
-        title: 'GetGeek - Register Page' 
+        title: 'GetGeek - Register Page',
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          color: '#FFF'
+        },
+        headerStyle: {
+          backgroundColor: '#000'
+        },
       },
     },
     Login: {
